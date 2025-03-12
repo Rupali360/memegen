@@ -2,15 +2,15 @@
   <div class="left">
     <input type="text" placeholder="lable 1" [(ngModel)]="lable1" />
     <input type="text" placeholder="lable 2" [(ngModel)]="lable2" />
-    <button>generate</button>
+    <button (click)="change()">generate</button>
   </div>
   <div class="right">
     <div class="upper-div">
       <p>
-        {{ lable1 }}
+        {{ lable1img }}
       </p>
       <p>
-        {{ lable2 }}
+        {{ lable2img }}
       </p>
     </div>
     <img src="/image.png" alt="" class="" />
