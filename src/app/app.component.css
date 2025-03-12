@@ -11,7 +11,9 @@
   align-items: center;
   justify-content: center;
 }
-
+h1{
+  text-align: center;
+}
 .right {
   width: 500px;
   display: flex;
