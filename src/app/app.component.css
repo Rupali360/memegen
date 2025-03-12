@@ -36,6 +36,8 @@
 
 .right img {
   width: 100%;
+  border-end-start-radius:20px;
+  border-end-end-radius:20px;
 }
 
 .box {
